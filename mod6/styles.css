@@ -1,0 +1,71 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #eb1212;
+    cursor: pointer;
+}
+
+th a{
+    text-decoration: none;
+    color:black;
+}
+th a:hover{
+    color: lightskyblue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eb1212;
+}
+
+tbody tr:hover {
+    background-color: aqua;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a{
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: aquamarine;
+}
+
+.pagination strong{
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.total-records {
+    margin-top: 20px;
+    font-weight: bold;
+}
